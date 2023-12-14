@@ -3,9 +3,9 @@ module "eks" {
   source          = "./modules/eks-cluster"
   cluster_name    = "my-eks-cluster"
   cluster_version = "1.24"
-  vpc_id          = "vpc-090c39e9e93fcbb15"
+  vpc_id          = "vpc-0adad6d7f81d8389d"
 
-  private_subnets = ["subnet-0c9fbe6c770ba2f2a", "subnet-032f4d47c9f61bd4c"]
-  public_subnets  = ["subnet-05e5a48293124460b", "subnet-0491da179f582def7"]
+  private_subnets = ["subnet-0a9c690f90d591f3f", "subnet-07e1ca21141d84a5c"]
+  public_subnets  = ["subnet-02ec3a17a1bd1ef0f", "subnet-03b50b77dfde89a51"]
 
 }
