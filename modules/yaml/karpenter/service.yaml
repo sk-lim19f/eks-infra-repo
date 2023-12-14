@@ -30,8 +30,8 @@ metadata:
   name: service-lt
 spec:
   subnetSelector:
-    karpenter.sh/discovery/fast-cluster: '*'
+    karpenter.sh/discovery/my-eks-cluster: '*'
   securityGroupSelector:
-    aws:eks:cluster-name: fast-cluster   # do not change
+    aws:eks:cluster-name: my-eks-cluster   # do not change
   tags:
-    karpenter.sh/discovery: fast-cluster
+    karpenter.sh/discovery: my-eks-cluster
